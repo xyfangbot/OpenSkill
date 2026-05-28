@@ -1,0 +1,23 @@
+{
+  "skill_name": "feishu-docs-vscode",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "把这个飞书文档接入 VSCode 预览：https://example.feishu.cn/docx/ABC123",
+      "expected_output": "Agent checks lark-cli auth, scaffolds or reuses the local preview workflow, configures the provided doc URL, syncs Markdown, renders HTML, and tells the user how to open the VSCode preview.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我本地改了 feishu-docs/current.md，帮我写回飞书",
+      "expected_output": "Agent previews the remote overwrite target and revision first, explains the risk, and only runs the confirmed push command after explicit user confirmation.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "飞书授权失效了，帮我重新连一下",
+      "expected_output": "Agent runs lark-cli auth status, starts the recommended login flow if needed, displays the verification URL and QR code, then resumes after the user authorizes.",
+      "files": []
+    }
+  ]
+}
