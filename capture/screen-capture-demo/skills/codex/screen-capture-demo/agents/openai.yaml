@@ -1,0 +1,4 @@
+interface:
+  display_name: "Screen Capture Demo"
+  short_description: "Create clean real screenshots, recordings, GIFs."
+  default_prompt: "Use $screen-capture-demo to capture a real app/demo run and produce clean screenshot, GIF, or video artifacts."

@@ -11,6 +11,7 @@ OpenSkill is a public collection of reusable AI-agent skills.
 Current skills:
 
 - `feishu/feishu-docs-vscode`: Sync Feishu/Lark cloud documents into VSCode as Markdown with rendered preview and guarded push-back.
+- `capture/screen-capture-demo`: Create real screenshots, recordings, GIFs, and terminal-log GIFs for demo proof.
 
 ## Install
 
